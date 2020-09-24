@@ -1,5 +1,5 @@
 /*	
-	Q1. Write a program using fork() where parent
+	Q1.a. Write a program using fork() where parent
 	and child execute same program, same code
 */
 #include<iostream>

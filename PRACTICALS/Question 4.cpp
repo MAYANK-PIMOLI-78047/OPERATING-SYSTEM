@@ -19,7 +19,7 @@ int main(int argc,char *argv[])
 	fstat(fd,&s1);
 	cout<<"Owner ID: "<<s1.st_uid<<"\n";
 	cout<<"Group ID: "<<s1.st_gid<<"\n";
-	printf("Mode:               %o(octal)\n",s1.st_mode & 0777);
+	printf("Mode: %o(octal)\n",s1.st_mode & 0777);
 	cout<<"Size= "<<s1.st_size<<"\n";
 	cout<<"No of links= "<<s1.st_nlink<<"\n";
 	strftime(time, sizeof (time),"%d.%m.%Y.%H.%M.%S",localtime(&s1.st_atime));
